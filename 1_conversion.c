@@ -7,7 +7,7 @@
  * @types: List of different arguments
  * @buffer: Buffer array to handle the print
  * @flags:  Calculates the active flags
- * @width: Width handler
+ * @width: Width
  * @precision: Precision specifications
  * @size: Size specifiers
  * Return: Number of chars that are printed
@@ -26,7 +26,7 @@ int print_char(va_list types, char buffer[],
  * @buffer: Buffer array to handle the print
  * @flags:  Calculates the active flags
  * @width: to get width.
- * @precision: Precisions specifications
+ * @precision: Precision specification
  * @size: Size specifiers
  * Return: Number of chars that are printed
  */
