@@ -1,8 +1,8 @@
 #include "main.h"
 void print_buffer(char buffer[], int *buff_ind);
 /**
-* _printf - The Printf function
-* @format: the format.
+* _printf - Printf function
+* @format: format.
 * Return: Printed chars.
 */
 int _printf(const char *format, ...)
@@ -46,8 +46,8 @@ return (printed_chars);
 }
 /**
 * print_buffer - Prints the contents of the buffer if the buffer exists
-* @buffer: An Array of chars
-* @buff_ind: The Index to add the next char, represents the length.
+* @buffer: Array of chars.
+* @buff_ind: Index to be added the next char, represents the length.
 */
 void print_buffer(char buffer[], int *buff_ind)
 {
