@@ -1,2 +1,1 @@
-This C programming project is a printf clone. The printf is one of the C library functions included in the header file, stdio.h.
-The printf() outputs or prints formatted texts (of different data types). The purpose of this project is to clone the printf()function. 
+This project in C programming is like creating a copy of printf, which is a function in the C library found in the stdio.h header file. Printf() is used to display or print formatted texts with various data types. The goal here is to make our own version of the printf() function. 
