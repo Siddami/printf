@@ -21,7 +21,7 @@
 /**
 * struct fmt - Struct op
 *
-* @fmt: The format or structure.
+* @fmt: Format.
 * @fn: The associated function.
 */
 struct fmt
@@ -32,7 +32,7 @@ int (*fn)(va_list, char[], int, int, int, int);
 /**
 * typedef struct fmt fmt_t - Struct op
 *
-* @fmt: The format or structure.
+* @fmt: format or structure.
 * @fm_t: The associated function.
 */
 typedef struct fmt fmt_t;
