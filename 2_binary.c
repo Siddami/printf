@@ -61,7 +61,7 @@ i++;
 return (write_unsgnd(0, i, buffer, flags, width, precision,
 size));
 }
-/***************** PRINT UNSIGNED NUMBERS IN HEXADECIMAL FORM ***********/
+/************* PRINT UNSIGNED NUMBERS IN HEXADECIMAL FORM **********/
 /**
 * print_hexadecimal - Prints out an unsigned number in hexadecimal notation
 * @types: List of argumentss
@@ -78,9 +78,9 @@ int flags, int width, int precision, int size)
 return (print_hexa(types, "0123456789abcdef", buffer,
 flags, 'x', width, precision, size));
 }
-/*************** PRINTS UNSIGNED NUMBER IN UPPER HEXADECIMAL**************/
+/************* PRINTS UNSIGNED NUMBER IN UPPER HEXADECIMAL**************/
 /**
-* print_hexa_upper - Prints out an unsigned number in upper hexadecimal notation
+* print_hexa_upper - Prints unsigned number in upper hexadecimal notation
 * @types: Lista of the arguments
 * @buffer: Buffer array to handle the print
 * @flags: Calculates the active flags
